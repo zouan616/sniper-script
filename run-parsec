@@ -1,0 +1,77 @@
+name=parsec-blackscholes
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-bodytrack
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-canneal
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-dedup
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-facesim
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-ferret
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-fluidanimate
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-freqmine
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-raytrace
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-streamcluster
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-swaptions
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-vips
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=parsec-x264
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done

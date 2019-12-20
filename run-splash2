@@ -1,0 +1,47 @@
+name=splash2-barnes
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=splash2-cholesky
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=splash2-fft
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=splash2-fmm
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=splash2-radiosity
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=splash2-radix
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=splash2-raytrace
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
+
+name=splash2-volrend
+for ((i=1; i<=4; i++))
+do
+  ./run-sniper -p ${name} -n $i -s check_ipc_an.py -s energystats.py > NODVFS-${name}-$i.txt
+done
