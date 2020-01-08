@@ -10,15 +10,18 @@ Works by registering a PRE_STAT_WRITE hook, which, before a stats snapshot write
 
 import sys, os, sim
 
+f1 = open("static_power.txt", "w")
+f2 = open("dynamic_power.txt", "w")
 
 def build_dvfs_table(tech):
   # Build a table of (frequency, voltage) pairs.
   # Frequencies should be from high to low, and end with zero (or the lowest possible frequency)
   if tech == 22:
-    return [ (2000, 1.0), (1800, 0.9), (1500, 0.8), (1000, 0.7), (0, 0.6) ]
+    return [ (2000, 0.0), (1800, 0.0), (1500, 0.0), (1000, 0.0), (0, 0.0) ]
   elif tech == 45:
     # print("here")
-    return [(2000, 1.2), (1800, 1.08), (1600, 0.96), (1400, 0.84), (1200, 0.72), (1000, 0.6)]
+    return [(2000, 1.2), (1800, 1.08), (1600, 0.96), (1400, 0.84)]
+    #return [(2000, 1.2), (1800, 1.08), (1600, 0.96), (1400, 0.84), (1200, 0.72), (1000, 0.6)]
     # return [ (2000, 1.0), (1000, 1.0)]
 
   else:
@@ -123,13 +126,15 @@ class EnergyStats:
     if self.power and sim.stats.time() > self.time_last_energy:
       time_delta = sim.stats.time() - self.time_last_energy
       for (component, core), power in self.power.items():
-        self.energy[(component, core, 'energy-static')] = self.energy.get((component, core, 'energy-static'), 0) + long(time_delta * power.s)
-        self.energy[(component, core, 'energy-dynamic')] = self.energy.get((component, core, 'energy-dynamic'), 0) + long(time_delta * power.d)
+        self.energy[(component, core, 'energy-static')] = self.energy.get((component, core, 'energy-static'), 0) + long(1000 * power.s)
+        self.energy[(component, core, 'energy-dynamic')] = self.energy.get((component, core, 'energy-dynamic'), 0) + long(1000 * power.d)
         if component == 'core':
-            print "STATIC POWER ", power.s
-            print "DYNAMIC POWER", power.d
-            print "STATIC ENERGY", self.energy[(component, core, 'energy-static')]
-            print "DYNAMIC ENERGY", self.energy[(component, core, 'energy-dynamic')]
+            print "STATIC POWER (W)", power.s
+            print "DYNAMIC POWER (W)", power.d
+            print "STATIC ENERGY (nJ)", self.energy[(component, core, 'energy-static')]
+            print "DYNAMIC ENERGY (nJ)", self.energy[(component, core, 'energy-dynamic')]
+            print "time_delta", time_delta
+
       self.time_last_energy = sim.stats.time()
 
   def get_vdd_from_freq(self, f):
