@@ -1,0 +1,251 @@
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_08/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_08_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_08/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_08_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_08/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_08_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_08/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_08_8us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_08/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_08_16us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_07/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_07_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_07/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_07_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_07/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_07_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_07/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_07_8us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_07/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_07_16us.txt
+done
+
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_06/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_06_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_06/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_06_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_06/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_06_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_06/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_06_8us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_06/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_06_16us.txt
+done
+
+
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_05/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_05_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_05/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_05_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_05/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_05_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_05/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_05_8us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_05/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_05_16us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_04/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_04_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_04/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_04_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_04/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_04_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_04/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_04_8us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_04/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_04_16us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_03/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_03_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_03/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_03_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_03/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_03_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_03/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_03_8us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_03/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_03_16us.txt
+done
+
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_02/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_02_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_02/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_02_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_02/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_02_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_02/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_02_8us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_02/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_02_16us.txt
+done
+
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_01/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_01_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_01/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_01_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_01/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_01_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_01/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_01_8us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_01/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_01_16us.txt
+done
+
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_00/benchmarks/test-local-pi-base_final_final/result_$i.txt >> /home/hls/Desktop/results/result_00_base.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_00/benchmarks/test-local-pi-1us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_00_1us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_00/benchmarks/test-local-pi-4us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_00_4us.txt
+done
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_00/benchmarks/test-local-pi-8us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_00_8us.txt
+done
+
+
+for ((i=1; i<=100; i++))
+do
+  grep -i "TOTAL ENERGY (nJ)" /home/hls/Desktop/final_sniper_local_combination_00/benchmarks/test-local-pi-16us-final-final/result_$i.txt >> /home/hls/Desktop/results/result_00_16us.txt
+done
+
+
+
+
+
